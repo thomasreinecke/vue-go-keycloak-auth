@@ -1,3 +1,2 @@
 #!/bin/bash
-
-go run cmd/sushibar/sushibar.go
+go run cmd/server/server.go

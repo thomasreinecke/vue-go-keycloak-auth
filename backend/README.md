@@ -1,23 +1,15 @@
 
-# go-rest - RESTful service exposing a basic user management
-
-my very first go project, trying to learn the language, packaging structures and best practices
-
+# backend of vue-go-keycloak-auth 
+this project provides a RESTful service exposing a keycloak user authentication
 
 
-## cmd/sushibar
-REST service bound to `::5000` thats providing a menu of sushi rolls on `http://localhost:5000/sushi`
+## cmd/server/server
+REST service bound to `::5000` thats providing the REST service at `http://localhost:5000/sushi`
 
-### Installation
+## Installation & How to Use
 ```
-git clone ...
-go run cmd/sushibar/sushibar.go 
+cd backend; go run cmd/server/server.go
 ```
 
-the **sushibar** service exposes the following REST interface:
-* GET `/sushi` returns full list of all sushi rolls on the menu
-* GET `/sushi/{id}` returns a specific roll from the menu
-* POST `/sushi` adds a roll to the sushi menue (structure is `{"name":"my roll","ingredients":"good stuff"}`
-* POST `/sushi/{id}` updates an existing sushi roll on the given id or throws a HTTP:403 if the id is not known
-* DELETE `/sushi/{id}` deletes an existing roll on the given id or throws a HTTP:403 if the id is not known
-
+the **auth** service exposes the following REST interface:
+* POST `/auth` authenticates a user (structure is `{"username":"test@tester.de","password":"test"}`
