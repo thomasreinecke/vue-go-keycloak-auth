@@ -4,7 +4,7 @@ this project provides a RESTful service exposing a keycloak user authentication
 
 
 ## cmd/server/server
-REST service bound to `::5000` thats providing the REST service at `http://localhost:5000/sushi`
+REST service bound to `::5000` thats providing the REST service at `http://localhost:5000/auth`
 
 ## Installation & How to Use
 ```
