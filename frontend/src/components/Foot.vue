@@ -1,7 +1,7 @@
 <template>
   <footer>
     <hr/>
-    <p class="text-muted">Built with ♥︎</p>
+    <p class="text-muted">built with ♥︎</p>
   </footer>
 </template>
 

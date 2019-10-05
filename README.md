@@ -17,6 +17,6 @@ Test & learning application to utilize a **VueJs** frontend with a **Go** backen
 
 * start the backend `cd backend; go run cmd/server/server.go`
 * prep frontend node modules `cd frontend; yarn`
-* start the frontend `yarn dev` (in frontend) -> go to `http://localhost:8080/` to use the frontend, login with `test@tester.de`
+* start the frontend `yarn serve` (in frontend) -> go to `http://localhost:8080/` to use the frontend, login with `test@tester.de`
 
 ![image](https://user-images.githubusercontent.com/35994116/66257366-7ece3800-e798-11e9-9e5c-f956d6132f94.png)
